@@ -25,7 +25,7 @@ SECRET_KEY = 'uk7#=67$9y_-kg(gc#gpx$n-p)lh2v5woqqf&4dj))&c5ft%cn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.codenvy.io']
+ALLOWED_HOSTS = ['.codenvy.io', 'ec2-3-87-217-169.compute-1.amazonaws.com']
 
 
 # Application definition
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',/
+    'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
