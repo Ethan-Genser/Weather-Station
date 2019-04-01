@@ -25,7 +25,7 @@ SECRET_KEY = 'uk7#=67$9y_-kg(gc#gpx$n-p)lh2v5woqqf&4dj))&c5ft%cn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.codenvy.io', '.vfs.cloud9.us-east-1.amazonaws.com']
+ALLOWED_HOSTS = ['.codenvy.io', '.vfs.cloud9.us-east-1.amazonaws.com', 'genser.shemls.io']
 
 
 # Application definition
